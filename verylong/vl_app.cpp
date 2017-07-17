@@ -1,9 +1,15 @@
 // vl_app.cpp
 // вычисляет факториалы больших чисел
+
+
+#pragma warning(disable:4996)  
+
 #include "verylong.h"    //заголовочный файл verylong
+#include <conio.h>
 
 int main()
 {
+	setlocale(0, "");
 	unsigned long numb, j;
 	verylong fact = 1;       //инициализировать verylong
 
@@ -15,6 +21,7 @@ int main()
 	cout << "Факториал= "; //  numb-3 и т. д.
 	fact.putvl();          //вывести значение факториала
 	cout << endl;
+	getch();
 	return 0;
 }
 

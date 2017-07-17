@@ -1,5 +1,9 @@
 // verylong.cpp
 // реализация обработки данных типа verylong
+
+
+#pragma warning(disable:4996)  
+
 #include "verylong.h"        //заголовочный файл для verylong
 //---------------------------------------------------------
 void verylong::putvl() const //вывод на экран verylong
