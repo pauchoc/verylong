@@ -111,6 +111,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="verylong.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="verylong.cpp" />
+    <ClCompile Include="vl_app.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
